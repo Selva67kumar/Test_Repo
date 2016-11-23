@@ -1,0 +1,6 @@
+com\niit\bookfront\controller\usercontroller.class
+com\niit\bookfront\controller\categorycontroller.class
+com\niit\bookfront\controller\homecontroller.class
+com\niit\bookfront\controller\modelcontroller.class
+com\niit\bookfront\controller\productcontroller.class
+com\niit\bookfront\controller\suppliercontroller.class

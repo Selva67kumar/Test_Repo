@@ -1,0 +1,58 @@
+/* CSS Document */
+.jumbotron{
+	background-image: url(../images/jumbo.png);
+	margin-bottom:0px;
+}
+
+body{
+	background-image: url(../images/dark.png);
+	margin-left:10px;
+}
+.container-fluid
+{
+	background-image: url(../images/nav.jpg);
+    background-repeat: repeat;
+	
+}
+
+.side {
+      list-style: none;
+      
+      margin-right:8px;
+      width:auto;
+      padding:0;
+}
+.side a,
+p.link a {
+    text-decoration: none;
+}
+.side li {
+    text-align: justify;
+    width: auto;
+    padding: 4px;
+    transition: all .2s linear;
+    background-color: gray;
+    background-image: url(../images/buttona.jpg);
+    background-repeat: repeat-x;
+    border: 1px solid #333;
+}
+
+.side a {
+    color: #ffffff
+}
+
+.side li:hover {
+    -moz-transform: translate(30px, 00px);
+    -webkit-transform: translate(30px, 00px);
+    -moz-border-radius: 0 9px 9px 0;
+    -webkit-border-radius: 0 9px 9px 0;
+    border-radius: 0 9px 9px 0;
+    transform: translate(10px, 00px);
+    background: -webkit-gradient(linear, 80% 20%, 10% 21%, from(#D20000), to(#610028));
+    background: -ms-gradient(linear, 80% 20%, 10% 21%, from(#D20000), to(#610028));
+    background: -moz-gradient(linear, 80% 20%, 10% 21%, from(#D20000), to(#610028))
+}
+
+.side li:active {
+    background-color: #D8D8D8
+}	
